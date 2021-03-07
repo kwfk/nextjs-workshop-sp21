@@ -18,18 +18,7 @@ const Layout: React.FunctionComponent<Props> = ({
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <header>
-        <nav className={styles.navbar}>
-          <Link href="/">
-            <a>
-              <h1>NBJC</h1>
-            </a>
-          </Link>
-          <div className={styles.nav}>
-            <Link href="/">
-              <a className={styles.link}>Map</a>
-            </Link>
-          </div>
-        </nav>
+        <nav className={styles.navbar} />
       </header>
       {children}
       <footer className={styles.footer} />
